@@ -9,6 +9,7 @@ export default function Layout() {
         <Link to="home">Home</Link>
         <Link to="gallery">Gallery</Link>
         <Link to="checkout">Checkout</Link>
+         <Link to="contact">Contact</Link>
       </nav>
       <Outlet/>
       <footer>
