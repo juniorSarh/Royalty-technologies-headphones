@@ -1,13 +1,14 @@
 import React from 'react'
 import { BrowserRouter, Link, Outlet, Routes, Route } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 export default function Layout() {
   return (
     <div>
       <nav>
-        <Link to="">Home</Link>
-        <Link to="">Gallery</Link>
-        <Link to="">Checkout</Link>
+        <Link to="home">Home</Link>
+        <Link to="gallery">Gallery</Link>
+        <Link to="checkout">Checkout</Link>
       </nav>
       <Outlet/>
       <footer>
